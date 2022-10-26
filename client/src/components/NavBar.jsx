@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const NavBar = () => {
   return (
     <nav>
-        <img src="./src/images/airbnb-logo.png" alt="AirBnb Logo" />
+      <img
+        src={require("../images/airbnb-logo.png")}
+        alt="AirBnb Logo"
+        className="nav--logo"
+      />
     </nav>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
