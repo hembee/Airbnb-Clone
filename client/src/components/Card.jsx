@@ -1,11 +1,12 @@
 import React from "react";
 
-const Card = ({ img, rating, rev, country, title, price }) => {
-  const colors=['red', 'orange','yellow', 'green', 'blue']
+const Card = (props) => {
   return (
     <div className="card">
+      {props.openSpots === 0 && <div className="card--badge">SOLD OUT</div>}
+      {props.openSpots > 0 && <div className="card--badge">ONLINE</div>}
       <img
-        src={require(`../images/${img}`)}
+        src={require(`../images/${props.img}`)}
         alt="swimmer"
         className="card--img"
       />
@@ -15,17 +16,14 @@ const Card = ({ img, rating, rev, country, title, price }) => {
           alt="star"
           className="card--star"
         />
-        <span>{rating}</span>
-        <span className="gray"> ({rev}) .</span>
-        <span className="gray">{country}</span>
+        <span>{props.rating}</span>
+        <span className="gray"> ({props.rev}) •</span>
+        <span className="gray">{props.country}</span>
       </div>
-      <p>{title}</p>
+      <p>{props.title}</p>
       <p>
-        <b>From ${price}</b> / person
+        <b>From ${props.price}</b> / person
       </p>
-      {colors.map(color => {
-        return <h3>{color.toUpperCase()}</h3>
-      })}
     </div>
   );
 };
