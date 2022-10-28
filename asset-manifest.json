@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.2a3626ec.css",
+    "main.js": "/react-gh-pages/static/js/main.b49b51ed.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/react-gh-pages/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/grid.png": "/react-gh-pages/static/media/grid.e4e5b894638f998a355a.png",
+    "static/media/katie-zaferes.png": "/react-gh-pages/static/media/katie-zaferes.4767e837886433abb374.png",
+    "static/media/wedding-photography.jpg": "/react-gh-pages/static/media/wedding-photography.bcd7218f2ef19190b570.jpg",
+    "static/media/mountain-bike.webp": "/react-gh-pages/static/media/mountain-bike.e068f1c92160fa2c6873.webp",
+    "static/media/airbnb-logo.png": "/react-gh-pages/static/media/airbnb-logo.6575dd315c027bd4e2bb.png",
+    "index.html": "/react-gh-pages/index.html",
+    "main.2a3626ec.css.map": "/react-gh-pages/static/css/main.2a3626ec.css.map",
+    "main.b49b51ed.js.map": "/react-gh-pages/static/js/main.b49b51ed.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/react-gh-pages/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a3626ec.css",
+    "static/js/main.b49b51ed.js"
+  ]
+}
